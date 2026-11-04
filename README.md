@@ -47,11 +47,6 @@ python make_yolo_dataset.py
 переводит разметку в формат YOLO и делит сканы на train/val/test (70/15/15).
 Результат — в `data/yolo_data/`.
 
-### 3. Обучение (следующий этап)
-
-```bash
-yolo segment train model=yolo26n-seg.pt data=data/yolo_data/dataset.yaml imgsz=640 epochs=100 batch=8
-```
 
 ## Структура кода
 
