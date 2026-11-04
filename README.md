@@ -55,7 +55,6 @@ configs/classes.py        # 7 классов тканей, их цвета и н
 src/data/
   java_oois.py            # разбор бинарной Java-сериализации QuPath
   qpdata_parser.py        # .qpdata (разметка тканей) → полигоны
-  cell_parser.py          # .qpdata (разметка ядер) → клетки (для этапа с ядрами)
 qpdata_to_geojson.py      # шаг 1: .qpdata → GeoJSON
 make_yolo_dataset.py      # шаг 2: GeoJSON + .svs → датасет YOLO
 ```
@@ -65,4 +64,4 @@ make_yolo_dataset.py      # шаг 2: GeoJSON + .svs → датасет YOLO
 ```bash
 pip install -r requirements.txt
 ```
-PyTorch с поддержкой видеокарты ставится отдельно — см. https://pytorch.org
+
