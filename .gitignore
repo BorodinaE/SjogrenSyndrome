@@ -1,0 +1,22 @@
+# Окружение и IDE
+.venv/
+.idea/
+__pycache__/
+*.pyc
+
+# Большие данные — в git не кладём, но структуру папок сохраняем через .gitkeep.
+# .svs — сканы, .qpdata — разметка, .geojson — результат конвертации, .pt/.pth — веса моделей
+*.svs
+*.qpdata
+*.geojson
+*.pt
+*.pth
+
+# Сгенерированный датасет YOLO (тайлы и их разметка)
+data/yolo_data/images/
+data/yolo_data/labels/
+data/yolo_data/split.json
+data/yolo_data/dataset.yaml
+
+# Результаты обучения YOLO
+runs/

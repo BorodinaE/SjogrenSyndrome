@@ -1,0 +1,5 @@
+openslide-python>=1.3
+openslide-bin>=4.0
+shapely>=2.0
+numpy
+ultralytics>=8.4
